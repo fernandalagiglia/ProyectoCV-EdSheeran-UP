@@ -108,6 +108,13 @@ header {
   margin-bottom: 10px;
   }
 
+/* Hover */
+.educacion, .experiencia, .reconocimientos, .idiomas {
+  transition: transform 0.2s ease-in-out;
+  }
+
+.educacion:hover, .experiencia:hover, .reconocimientos:hover, .idiomas:hover {
+  transform: scale(1.1) rotate(360deg); }
    
 
 
