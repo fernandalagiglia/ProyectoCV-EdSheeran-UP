@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Rubik:ital,wght@0,300;1,300&family=Source+Sans+Pro:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&family=Source+Sans+Pro:wght@200&display=swap');
+
+* {margin:0; padding: 0; letter-spacing: 2px;}  
+
+
+body { 
+    max-width: 100%;
+    background-color: #000000;
+    color: white;
+    letter-spacing: 3px;
+}
+    
+.logo { width: 220px; }
+h1 {padding: 2%; text-align: center; }
+header {
+    background-color: #FFDB04;
+    text-align: left; 
+    padding: 20px;
+    width: 80%;
+    margin: auto;
+}
+#titulo {
+    color: #ffffff;
+
+}
+
+.cajacontenedora1 {  
+    width: 80%;
+    padding:1%;
+    margin: auto; 
+    display : flex;
+    flex-direction : row;
+    background-color: rgb(135, 16, 16);
+    }
+.cajacontenedora1 img{ width: 100%;}
+.cajacontenedora1 div { 
+    width:48%;
+    margin: 1%; 
+    text-align: left; 
+    }
+
+.caja1 h4{
+    font-size: 24px;
+    padding-bottom: 5%;
+}
+.caja1 p{
+    font-size: 18px;
+    color: white;
+    padding-bottom: 10%;
+}
+
+/*estilos cajas*/
+
+.cajacontenedora5{
+  width: 80%;
+  padding:1%;
+  margin: auto; 
+  display : flex;
+  flex-direction : row;
+  background-color: rgb(135, 16, 16);
+  flex-wrap: wrap;
+  padding-top: 50px;  
+  }
+
+.cajacontenedora5 div { 
+  width:48%;
+  margin: 1%; 
+  text-align: left; 
+}
+.cajacontenedora5 h4{
+  font-size: 24px;
+}
+.cajacontenedora5 ul li {
+  font-size: 18px;
+  text-align: left ;
+  padding: 5px;
+  list-style: disc;
+  margin-left: 20px;
+  }
+ 
+.educacion, .experiencia, .reconocimientos, .idiomas {
+  box-sizing: border-box;
+  width: 33%;
+  height: 250px;
+  background-color: rgb(11, 5, 97);
+  text-align: center;
+  overflow: hidden;  
+  font-size: 13px;
+  padding: 5px;
+  box-sizing: border-box;
+  
+}
+
+.educacion h4 {
+  margin-bottom: 10px;
+  }
+
+.experiencia h4 {
+  margin-bottom: 10px;
+  }
+  
+.reconocimientos h4 {
+  margin-bottom: 10px;
+  }
+  
+.idiomas h4 {
+  margin-bottom: 10px;
+  }
+
+   
+
+
+/*estilos footer*/
+footer {
+    color:#000000;
+    background-color: #FFDB04;
+    padding: 20px;
+    width: 80%;
+    margin: auto;
+    
+  }  
+  .Redessociales {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .Contacto {
+    text-align: left;
+    color: black;
+  }
+  
+  .right {
+    display: flex;
+  }
+  .right a img {
+    max-width: 20px;
+    max-height: 20px;
+  }
+  .right a {
+    margin-left: 10px;
+  }
+  
+
+/* Estilos para pantallas chicas */
+@media screen and (min-width:0px) and (max-width: 600px){
+.logo { width: 120px; }
+h1 {padding: 2%; text-align: center; }
+header {
+  background-color: #FFDB04;
+  text-align: left; 
+  padding: 10px;
+  width: 80%;
+  margin: auto;
+}
+.cajacontenedora1 {
+  flex-direction: column;
+  align-items: center; }
+.caja1 p{
+  font-size: 10px;}
+
+  .cajaimagen img {
+    width: 90%;
+    }
+
+    #titulo h1 {
+    font-size: 20px;
+  }
+  
+  .cajacontenedora5 div {
+    font-size: 12px;
+  }
+  .cajacontenedora5 h4{
+    font-size: 12px;
+  }
+
+  .cajacontenedora5 ul li{
+    font-size: 8px;
+  }
+  
+}
+
+
+
+
+/* Estilos para pantallas medianas */
+@media screen and (min-width:601px)and (max-width: 990px) {
+.cajacontenedora1 {
+  width: 90%;
+  padding:1%;
+  margin: auto;
+  display : flex;
+  flex-direction : column;
+  align-items: center;
+  background-color: rgb(135, 16, 16);
+  }
+.caja1{
+  width: 80%;
+}
+.caja1 p{
+  font-size: 18px;
+}
+  
+.cajaimagen {
+  width: 90%;
+  margin-bottom: 1%;
+}
+
+.caja1 {
+  width: 90%;
+  margin-bottom: 1%;
+  text-align: left;
+}
+.cajacontenedora5 {
+  width: 90%;
+  padding:1%;
+  margin: auto; 
+  display : flex;
+  flex-direction : column;
+  align-items: center;
+  background-color: rgb(135, 16, 16);
+}
+.cajacontenedora5 div { 
+  width: 90%;
+  margin-bottom: 1%; 
+  text-align: left;
+}
+}
+
