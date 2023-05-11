@@ -13,6 +13,26 @@ body {
     
 .logo { width: 220px;}
 
+/* animacion */
+@keyframes animacion {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+#titulo h1 {
+  animation-name: animacion;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+}
+
+
 /*Hover logo*/
 .logo {
   transition: transform 0.2s ease-in-out;
