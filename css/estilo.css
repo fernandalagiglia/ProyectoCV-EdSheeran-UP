@@ -43,6 +43,8 @@ header {
     background-color: rgb(255, 255, 255);
     }
 .cajacontenedora1 img{ width: 100%;}
+.cajaimagen img {
+     border-radius: 10%;}
 .cajacontenedora1 div { 
     width:48%;
     margin: 1%; 
@@ -166,16 +168,8 @@ footer {
   .right a {
     margin-left: 20px;
   }
-  /*Hover imagen */
-  .cajaimagen img {
-    border-radius: 10%;
-    transition: transform 0.5s ease;
-  }
-  
-  .cajaimagen img:hover {
-    transform: scale(1.1);
-    border-radius: 0;
-  }/* Hover */
+
+/* Hover */
 .educacion, .experiencia, .reconocimientos, .idiomas {
   transition: transform 0.2s ease-in-out;
   }
