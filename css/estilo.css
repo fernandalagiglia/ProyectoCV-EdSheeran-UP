@@ -43,6 +43,10 @@ header {
     background-color: rgb(255, 255, 255);
     }
 .cajacontenedora1 img{ width: 100%;}
+[alt] {
+  color: black;
+}
+
 .cajaimagen img {
      border-radius: 10%;}
 .cajacontenedora1 div { 
